@@ -1,14 +1,15 @@
 html {
-  font-size: calc(1em + 0.8vw);
+  font-size: calc( 20px + (25 - 20) * ( (100vw - 991px) / 991 ) );
   font-family: 'EB Garamond', serif;
 }
 
-h1 {
-  font-size: 2.5em;
+body {
+  margin: 0;
 }
 
 h2 {
   font-size: 1.5em;
+  margin: 3vw 0 1.5vw 0;
 }
 
 header {
@@ -17,170 +18,60 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  padding-top:  1vh;
+  padding:  1vh;
   background-color: white;
 }
 
-header > a {
+a {
   color: black;
   text-decoration: none;
 }
 
-header > a:hover {
+ a:hover {
   text-decoration: underline;
 }
 
 .title {
-padding-top: 20px;
+  font-size: 2.5em;
+padding-top: 50px;
 text-align: center;
+margin: 0;
 }
 
 .subtitle {
   font-size:  0.8em;
   text-align: center;
+  margin: 0;
+  padding-bottom: 5vw;
+}
+
+.main-text p {
+  margin: 1vw;
 }
 
 .content {
-  padding: 0 5%;
+  padding: 5vw 5%;
 }
+
 
 @media (min-width: 576px) {
-  html {
-    font-size: calc(1em + 2vw);
-    font-family: 'EB Garamond', serif;
-  }
-
-  h1 {
-    font-size: 2.5em;
-  }
-
-  h2 {
-    font-size: 1.5em;
-  }
-
-  header {
-    font-size: 1.5em;
-    border-bottom: 1px solid black;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding-top:  1vh;
-    background-color: white;
-  }
-
-  header > a {
-    color: black;
-    text-decoration: none;
-  }
-
-  header > a:hover {
-    text-decoration: underline;
-  }
-
- .title {
-  padding-top: 20px;
-  text-align: center;
-  }
-
-  .subtitle {
-    text-align: center;
-  }
-
   .content {
-    padding: 0 5%;
+    padding: 5vw 5%;
   }
 }
 
+
 @media (min-width: 768px) {
-  html {
-    font-size: calc(1em + 2vw);
-    font-family: 'EB Garamond', serif;
-  }
-
-  h1 {
-    font-size: 2.5em;
-  }
-
-  h2 {
-    font-size: 1.5em;
-  }
-
-  header {
-    font-size: 1.5em;
-    border-bottom: 1px solid black;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding-top:  1vh;
-    background-color: white;
-  }
-
-  header > a {
-    color: black;
-    text-decoration: none;
-  }
-
-  header > a:hover {
-    text-decoration: underline;
-  }
-
- .title {
-  padding-top: 20px;
-  text-align: center;
-  }
-
-  .subtitle {
-    text-align: center;
-  }
-
-  .content {
-    padding: 0 10%;
-  }
+.content {
+  padding: 5vw 15%;
+}
 }
 
 @media (min-width: 992px) {
   html {
-    font-size: calc(1em + 0.5vw);
-    font-family: 'EB Garamond', serif;
+    font-size: 25;
   }
-
-  h1 {
-    font-size: 2.5em;
-  }
-
-  h2 {
-    font-size: 1.5em;
-  }
-
-  header {
-    font-size: 1.5em;
-    border-bottom: 1px solid black;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding-top:  1vh;
-    background-color: white;
-  }
-
-  header > a {
-    color: black;
-    text-decoration: none;
-  }
-
-  header > a:hover {
-    text-decoration: underline;
-  }
-
- .title {
-  padding-top: 20px;
-  text-align: center;
-  }
-
-  .subtitle {
-    text-align: center;
-  }
-
   .content {
-    padding: 0 15%;
+    padding: 5vw 18%;
   }
 }

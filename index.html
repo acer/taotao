@@ -9,27 +9,39 @@
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/favicon.png" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style type="text/css">
+    html {
+      font-size: 40px;
+    }
+
   	p {
   		text-align: center;
-		font-family: 'EB Garamond', serif;
-		font-size: 50px;
+		  font-family: 'EB Garamond', serif;
   	}
+
+    a {
+      color: black;
+    }
 
   	iframe {
 	    margin: 0 auto;
-		display: block;
+		  display: block;
   	}
 
-  	#badnamingpractice {
-  		  position: absolute;
+  	.badnamingpractice {
+  		 position: absolute;
 		  top: 50%;
 		  left: 50%;
 		  transform: translate(-50%, -50%);
   	}
 
-  	#smallertext {
+    .list-to-shit {
+      font-size:
+    }
+
+  	.smallertext {
   		font-size: 20pt;
   	}
   </style>
@@ -37,11 +49,11 @@
 </head>
 
 <body>
-<div id="badnamingpractice">
+<div class="badnamingpractice">
 	<p>滔饕 TaoTao</p>
-	<p><a href="recipes/montrealbagels.html">Montréal Bagel</a></p>
-	<p id="smallertext">2020 &copy;</p>
+	<p class="list-to-shit"><a href="./recipes/montrealbagels.html">Montréal Bagel</a></p>
+	<p class="smallertext">2020 &copy;</p>
 </div>
 
 </body>
-</html> 
+</html>
