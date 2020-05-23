@@ -69,9 +69,11 @@ margin: 0;
 
 @media (min-width: 992px) {
   html {
-    font-size: 25;
+    font-size: 25px;
   }
   .content {
     padding: 5vw 18%;
+    max-width: 1200px;
+    margin: 0 auto;
   }
 }
