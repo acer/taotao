@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recipes on Taotao Kitchen</title>
+    <link>https://taotao.kitchen/recipe/</link>
+    <description>Recent content in Recipes on Taotao Kitchen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 May 2021 17:05:43 +0800</lastBuildDate><atom:link href="https://taotao.kitchen/recipe/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Montreal Bagels</title>
+      <link>https://taotao.kitchen/recipe/mtlbagel/</link>
+      <pubDate>Mon, 24 May 2021 19:04:58 +0800</pubDate>
+      
+      <guid>https://taotao.kitchen/recipe/mtlbagel/</guid>
+      <description>If you hate reading stories, go to recipe here you filthy casual.
+Read the Damn Intro Will Ya My roommate Alexis and I have always been hardcore fans of Montreal-style Bagels.
+Alexis grew up in Bromont, which is just a little over an hour&amp;rsquo;s drive from Montreal. Lucky for him, he has had plenty of occasions indulging these sacred rings. My relationship with these bagels however, is somewhat different. Never having lived in Montreal (though I hope this will change soon), every occasion to lay my hands on these bagels was like striking gold on The Yukon Trail.</description>
+    </item>
+    
+  </channel>
+</rss>

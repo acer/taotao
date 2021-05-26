@@ -1,0 +1,16 @@
+#content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: normal;
+}
+
+p{
+    font-size: 25px;
+}

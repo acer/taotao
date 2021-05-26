@@ -1,0 +1,36 @@
+#content {
+  padding: 1vw 5%;
+}
+
+.bigCs {
+  font-size: calc( 90px + (25 - 20) * ( (100vw - 991px) / 991 ) );
+  font-family: 'EB Garamond', serif;
+}
+
+.big-reveal {
+  padding: 1vh 0;
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  #content {
+    padding: 1vw 5%;
+  }
+}
+
+@media (min-width: 768px) {
+  #content {
+    padding: 1vw 15%;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    font-size: 25px;
+  }
+  #content {
+    padding: 1vw 18%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}

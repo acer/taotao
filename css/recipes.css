@@ -1,0 +1,37 @@
+#content {
+  padding: 1vw 5%;
+}
+
+.quote-words {
+  // padding: 0 15%;
+  text-align: center;
+  margin-bottom: 3vh;
+}
+
+.quote-mans {
+  // padding: 0 20%;
+  text-align: center;
+  margin-bottom: 15vh;
+}
+@media (min-width: 576px) {
+  #content {
+    padding: 1vw 5%;
+  }
+}
+
+@media (min-width: 768px) {
+  #content {
+    padding: 1vw 15%;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    font-size: 25px;
+  }
+  #content {
+    padding: 1vw 18%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}

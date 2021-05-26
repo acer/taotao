@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://taotao.kitchen/recipe/</loc>
+    <lastmod>2021-05-25T17:05:43+08:00</lastmod>
+  </url><url>
+    <loc>https://taotao.kitchen/</loc>
+    <lastmod>2021-05-25T17:05:43+08:00</lastmod>
+  </url><url>
+    <loc>https://taotao.kitchen/about/</loc>
+    <lastmod>2021-05-25T14:33:00+08:00</lastmod>
+  </url><url>
+    <loc>https://taotao.kitchen/recipe/mtlbagel/</loc>
+    <lastmod>2021-05-24T19:04:58+08:00</lastmod>
+  </url><url>
+    <loc>https://taotao.kitchen/categories/</loc>
+  </url><url>
+    <loc>https://taotao.kitchen/tags/</loc>
+  </url>
+</urlset>
